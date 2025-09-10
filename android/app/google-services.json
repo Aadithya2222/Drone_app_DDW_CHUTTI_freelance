@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "746060492587",
+    "project_id": "movie-rs-7fc7a",
+    "storage_bucket": "movie-rs-7fc7a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746060492587:android:542478d29bf0320df7df6e",
+        "android_client_info": {
+          "package_name": "com.example.ddw_chutti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPVxk8kkEMXcaEGsbtV8kLA0iXDKJxi6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

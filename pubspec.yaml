@@ -1,0 +1,39 @@
+name: ddw_chutti
+description: A Flutter drone control app
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.1 
+  # Firebase packages compatible with Flutter 3.x
+  firebase_core: ^2.22.0
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.7.1
+
+  # Optional platform widgets
+  flutter_platform_widgets: ^2.0.0
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ddw_chutti_intro.mp4
+    - assets/ddw_chutti_logo.png 
+    - assets/logo2.png 
+    - assets/logo3.png  # ✅ also add your logo to assets
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo3.png"
